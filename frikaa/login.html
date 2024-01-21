@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="selling" content="width=device-width,initial-scale=1">
+  <title>navbar (navigation bar) dengan bootstrap</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">toggle nav</span>
+      <span class="i con-bar"></span>
+      <span class="i con-bar"></span>
+      <span class="i con-bar"></span>
+      </button>
+      <a class="navbar-brand"href="#">WISATA BATU BARA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li><a href="wisata.html">beranda</a></li>
+      <li><a href="DESTINASI.HTML">destinasi</a></li>
+      <li><a href="paketwisata.html">paket wisata</a></li>
+      <li><a href="#">kontak</a></li>
+      <li><a href="#"></a></li>
+      <li class="dropdown">
+        <ul class="dropdown-menu">
+        <li><a href="#">mariadb</a></li>
+        <li><a href="#">sql server</a></li>
+        </ul>
+      </li>
+      </ul>
+      <from class="navbar-form navbar-left">
+      <div class="form-group">
+        <input type="text" class="form-control"placehorder="isikan keyword">
+      </div>
+      <button type="submit" class="btn btn-default">cari</
+    </from>
+    <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle"data-toggle="dropdown" role="button" aria-haspopup="true"aria-expanded="false">
+      <span class="glyphicon-user"aria-hidden="true"></span> user <span class"\></span></a>
+      <ul class="dropdown-menu">
+      <li><a href="#">profile</a></li>
+      <li><a href="#">logout</a></li>
+      </ul>
+     </il>
+     </ul>
+    </div>
+   </nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Login</h5>
+          <form>
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" class="form-control" id="username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
